@@ -16,4 +16,8 @@ if(CMAKE_COMPILER_IS_GNUCC)
     add_definitions(-std=gnu++0x)
 endif()
 
-add_ugdk_executable(circuit-of-mana main.cc)
+set(SRCS
+    ./src/main.cc
+)
+
+add_ugdk_executable(circuit-of-mana ${SRCS})
