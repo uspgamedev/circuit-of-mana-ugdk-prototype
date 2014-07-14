@@ -19,3 +19,13 @@
 *.exe
 *.out
 *.app
+
+#stuff
+CMakeCache.txt
+CMakeFiles/
+CPack*
+Makefile
+cmake_install.cmake
+
+circuit-of-mana*
+
